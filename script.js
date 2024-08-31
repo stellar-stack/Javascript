@@ -35,13 +35,28 @@ document.getElementById("submit").onclick = function () {
 
 /*--------------  Proffessional way ---------------- */
 
-
 /*--------------  Conversion ---------------- */
 let age = window.prompt("How old are you?");
-
 
 age = Number(age);
 age += 1;
 console.log(age);
 
 console.log(typeof age);
+/*--------------  Conversion ---------------- */
+
+/*--------------  Constant ---------------- */
+
+const PI = 3.14;
+
+let radius;
+let circum;
+
+radius = window.prompt(`Enter the radius`);
+
+radius = Number(radius);
+
+circum = 2 * PI * radius;
+
+// console.log(circum);   
+document.getElementById('heading').textContent = `${circum}`;
