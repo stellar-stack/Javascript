@@ -1,12 +1,12 @@
-let name1 = "Shaziya";
-document.getElementById("heading").textContent = `Hello ${name1}`;
+// let name1 = "Shaziya";
+// document.getElementById("heading").textContent = `Hello ${name1}`;
 
-// Arithmetic
+// // Arithmetic
 
-let students = 30;
+// let students = 30;
 
-let student = students ** 2;
-console.log(student);
+// let student = students ** 2;
+// console.log(student);
 
 // Accepting user input
 
@@ -24,14 +24,14 @@ console.log(student);
 
 // using HTML textbox.
 
-let username1;
+// let username1;
 
-document.getElementById("submit").onclick = function () {
-  username1 = document.getElementById("myText").value;
-  // console.log(username1);
+// document.getElementById("submit").onclick = function () {
+//   username1 = document.getElementById("myText").value;
+//   // console.log(username1);
 
-  document.getElementById("heading").textContent = `Hello ${username1}!`;
-};
+//   document.getElementById("heading").textContent = `Hello ${username1}!`;
+// };
 
 /*--------------  Proffessional way ---------------- */
 
@@ -47,7 +47,7 @@ document.getElementById("submit").onclick = function () {
 
 /*--------------  Constant ---------------- */
 
-const PI = 3.14;
+// const PI = 3.14;
 
 // let radius;
 // let circum;
@@ -60,17 +60,50 @@ const PI = 3.14;
 // document.getElementById("heading").textContent = `${circum}`;
 /*--------------  Constant ---------------- */
 
-/*--------------  Constant ---------------- */
+/*--------------  Little calculator ---------------- */
 
-let circum;
+// let circum;
 
-document.getElementById("submit").onclick = function () {
-  let r = document.getElementById("radius").value;
-  r = Number(r);
+// document.getElementById("submit").onclick = function () {
+//   let r = document.getElementById("radius").value;
+//   r = Number(r);
 
-  circum = 2 * PI * r;
+//   circum = 2 * PI * r;
 
-  document.getElementById(
-    "heading"
-  ).textContent = `The circumferece is = ${circum}cm.`;
-};
+//   document.getElementById(
+//     "heading"
+//   ).textContent = `The circumferece is = ${circum}cm.`;
+// };
+
+/*--------------  Little Calculator ---------------- */
+
+
+/*--------------  Counter Program ---------------- */
+
+const increase = document.getElementById('increase');
+const decrease = document.getElementById('decrease');
+const reset = document.getElementById('reset');
+
+const label = document.getElementById('digit');
+
+let count = 0;
+
+increase.onclick = function() {
+    count ++;
+    label.textContent = count;   
+}
+reset.onclick = function() {
+    count = 0;
+    label.textContent = count;   
+}
+decrease.onclick = function() {
+    count --;
+    label.textContent = count;  
+    
+    if(decrease) {
+        label.textContent = `Moving Down ${count}`;
+    }
+    else {
+        label.textContent = `Moving Up ${count}`;
+    }
+}
