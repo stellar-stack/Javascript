@@ -265,3 +265,20 @@
 
 /*--------------  Callbacks ---------------- */
 
+
+/*--------------  forEach ---------------- */
+
+// let fruits = ['apple', 'orange', 'grapes', 'guava', 'avacado'];
+
+// fruits.forEach(upperCase);
+// fruits.forEach(display);
+
+// function upperCase (element, array, index) {
+//     array[index] = element.toUpperCase()
+// }
+
+// function display (element) {
+//     console.log(element)
+// }
+
+/*--------------  forEach End ---------------- */
