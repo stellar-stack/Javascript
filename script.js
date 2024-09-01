@@ -171,8 +171,17 @@
 
 /*--------------  .Method Chaining ---------------- */
 
-let username = window.prompt('Enter name !');
+// let username = window.prompt('Enter name !');
 
-username = username.trim().slice(0, 7).toUpperCase();
+// username = username.trim().slice(0, 7).toUpperCase();
 
-console.log(username)
+// console.log(username)
+
+/*--------------  .Method Chaining ---------------- */
+
+
+/*--------------  For Loop ---------------- */
+
+for(let i = 1 ; i < 11; i++) {
+    console.log('string ' + i);
+}
