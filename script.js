@@ -161,6 +161,18 @@
 /*--------------  .Checked ---------------- */
 
 
-let username = "Stellar";
+/*--------------  .String Methods ---------------- */
+// let username = "Stellar";
 
-console.log(username.includes(''));
+// console.log(username.includes(''));
+
+/*--------------  .String Methods ---------------- */
+
+
+/*--------------  .Method Chaining ---------------- */
+
+let username = window.prompt('Enter name !');
+
+username = username.trim().slice(0, 7).toUpperCase();
+
+console.log(username)
