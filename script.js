@@ -77,7 +77,6 @@
 
 /*--------------  Little Calculator ---------------- */
 
-
 /*--------------  Counter Program ---------------- */
 
 // const increase = document.getElementById('increase');
@@ -90,16 +89,16 @@
 
 // increase.onclick = function() {
 //     count ++;
-//     label.textContent = count;   
+//     label.textContent = count;
 // }
 // reset.onclick = function() {
 //     count = 0;
-//     label.textContent = count;   
+//     label.textContent = count;
 // }
 // decrease.onclick = function() {
 //     count --;
-//     label.textContent = count;  
-    
+//     label.textContent = count;
+
 //     if(decrease) {
 //         label.textContent = `Moving Down ${count}`;
 //     }
@@ -108,12 +107,37 @@
 //     }
 // }
 
+/*--------------  Math Object ---------------- */
+
+// let x = 3.21;
+// let y = 2;
+// let z;
+
+// console.log(Math.random(z) * 10 + 1);
 
 /*--------------  Math Object ---------------- */
 
-let x = 3.21;
-let y = 2;
-let z;
+/*--------------  Random number Generator ---------------- */
 
-console.log((Math.random(z) * 10) + 1)
+const btn = document.getElementById("btn");
 
+const label = document.getElementById("label");
+const label1 = document.getElementById("label1");
+const label2 = document.getElementById("label2");
+
+let min = 1;
+let max = 6;
+
+let randomnumber;
+let randomnumber1;
+let randomnumber2;
+
+btn.onclick = function () {
+  randomnumber = Math.floor(Math.random() * max) + min;
+  randomnumber1 = Math.floor(Math.random() * max) + min;
+  randomnumber2 = Math.floor(Math.random() * max) + min;
+
+  label.textContent = randomnumber;
+  label1.textContent = randomnumber1;
+  label2.textContent = randomnumber2;
+};
