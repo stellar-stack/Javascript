@@ -182,6 +182,14 @@
 
 /*--------------  For Loop ---------------- */
 
-for(let i = 1 ; i < 11; i++) {
-    console.log('string ' + i);
+// for(let i = 1 ; i < 11; i++) {
+//     console.log('string ' + i);
+// }
+
+/*--------------  Function ---------------- */
+
+function add (x, y) {
+    return x + y;
 }
+
+console.log(add(2, 3));
