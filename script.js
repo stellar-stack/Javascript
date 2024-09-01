@@ -159,3 +159,8 @@
 // };
 
 /*--------------  .Checked ---------------- */
+
+
+let username = "Stellar";
+
+console.log(username.includes(''));
