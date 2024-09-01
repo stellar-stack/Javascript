@@ -205,43 +205,45 @@
 
 /*--------------  Random password Generate ---------------- */
 
-const psw = 12;
-const includelower = true;
-const includeUpper = true;
-const includeNumber = true;
-const includeSymbol = true;
+// const psw = 12;
+// const includelower = true;
+// const includeUpper = true;
+// const includeNumber = true;
+// const includeSymbol = true;
 
-function generatePassword(length,includelower,includeUpper,includeNumber,includeSymbol) {
+// function generatePassword(length,includelower,includeUpper,includeNumber,includeSymbol) {
     
-  const lowerCase = "abcdefghijklmnopqrstuvwxyz";
-  const upperCase = "ABCDEFGHILKLMNOPQRSTUVWXYZ";
-  const number = "1234567890";
-  const symbolsChar = "@-/£%^&*()-=!";
-  let allowedChar = "";
-  let psw = "";
+//   const lowerCase = "abcdefghijklmnopqrstuvwxyz";
+//   const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//   const number = "1234567890";
+//   const symbolsChar = "@-/£%^&*()-=!";
+//   let allowedChar = "";
+//   let pasw = "";
 
-  allowedChar += includelower ? lowerCase : "";
-  allowedChar += includeUpper ? upperCase : "";
-  allowedChar += includeNumber ? number : "";
-  allowedChar += includeSymbol ? symbolsChar : "";
+//   allowedChar += includelower ? lowerCase : "";
+//   allowedChar += includeUpper ? upperCase : "";
+//   allowedChar += includeNumber ? number : "";
+//   allowedChar += includeSymbol ? symbolsChar : "";
 
-  if(length <= 0) {
-    return `(password length must be atleast 1)`;
-  }
+//   if(length <= 0) {
+//     return 'password length must be atleast 1';
+//   }
 
-  if(allowedChar.length === 0) {
-    return `(Atleast 1 set of charachter is necc.)`;
-  }
+//   if(allowedChar.length === 0) {
+//     return 'Atleast 1 set of charachter is necc.';
+//   }
 
-  for(allowedChar.length === 0) {
-    const randomIndex = Math.floor(Math.random() * allowedChar.length);
+//   for(let i = 0; i < length; i++) {
+//     const randomIndex = Math.floor(Math.random() * allowedChar.length);
+//     pasw += allowedChar[randomIndex];
+// }
+// return pasw;    
 
-    psw += allowedChar[randomIndex];
-  }
+// }
 
-  return psw;
-}
+// let password = generatePassword(psw, includelower, includeUpper, includeNumber, includeSymbol)
 
-let password = generatePassword(password.length, includelower, includeUpper, includeNumber, includeSymbol)
+// document.getElementById('label').textContent = `Generated Password: ${password}`
 
-console.log(`generated password: ${password}`);
+
+/*--------------  Random password Generate ---------------- */
