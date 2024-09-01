@@ -119,25 +119,43 @@
 
 /*--------------  Random number Generator ---------------- */
 
-const btn = document.getElementById("btn");
+// const btn = document.getElementById("btn");
 
-const label = document.getElementById("label");
-const label1 = document.getElementById("label1");
-const label2 = document.getElementById("label2");
+// const label = document.getElementById("label");
+// const label1 = document.getElementById("label1");
+// const label2 = document.getElementById("label2");
 
-let min = 1;
-let max = 6;
+// let min = 1;
+// let max = 6;
 
-let randomnumber;
-let randomnumber1;
-let randomnumber2;
+// let randomnumber;
+// let randomnumber1;
+// let randomnumber2;
 
-btn.onclick = function () {
-  randomnumber = Math.floor(Math.random() * max) + min;
-  randomnumber1 = Math.floor(Math.random() * max) + min;
-  randomnumber2 = Math.floor(Math.random() * max) + min;
+// btn.onclick = function () {
+//   randomnumber = Math.floor(Math.random() * max) + min;
+//   randomnumber1 = Math.floor(Math.random() * max) + min;
+//   randomnumber2 = Math.floor(Math.random() * max) + min;
 
-  label.textContent = randomnumber;
-  label1.textContent = randomnumber1;
-  label2.textContent = randomnumber2;
-};
+//   label.textContent = randomnumber;
+//   label1.textContent = randomnumber1;
+//   label2.textContent = randomnumber2;
+// };
+
+/*--------------  .Checked ---------------- */
+
+// const submitbtn = document.getElementById("submitbtn");
+// const subscribe = document.getElementById("subscribe");
+// const visa = document.getElementById("visa");
+// const master = document.getElementById("master");
+// const paypal = document.getElementById("paypal");
+
+// submitbtn.onclick = function () {
+//   if (subscribe.checked && visa.checked) {
+//     console.log("You are Subscribed and you paypment is in process");
+//   } else if (subscribe.checked) {
+//     console.log("You are Subscribed");
+//   }
+// };
+
+/*--------------  .Checked ---------------- */
