@@ -247,3 +247,21 @@
 
 
 /*--------------  Random password Generate ---------------- */
+
+
+/*--------------  Callbacks ---------------- */
+
+
+function hello(wait) {
+    console.log('Hello')
+    
+    wait();
+}
+
+function wait(hello) {
+    console.log('WAIT');
+}
+
+
+/*--------------  Callbacks ---------------- */
+
