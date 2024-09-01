@@ -252,15 +252,15 @@
 /*--------------  Callbacks ---------------- */
 
 
-function hello(wait) {
-    console.log('Hello')
+// function hello(wait) {
+//     console.log('Hello')
     
-    wait();
-}
+//     wait();
+// }
 
-function wait(hello) {
-    console.log('WAIT');
-}
+// function wait(hello) {
+//     console.log('WAIT');
+// }
 
 
 /*--------------  Callbacks ---------------- */
