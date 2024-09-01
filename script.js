@@ -160,14 +160,12 @@
 
 /*--------------  .Checked ---------------- */
 
-
 /*--------------  .String Methods ---------------- */
 // let username = "Stellar";
 
 // console.log(username.includes(''));
 
 /*--------------  .String Methods ---------------- */
-
 
 /*--------------  .Method Chaining ---------------- */
 
@@ -178,7 +176,6 @@
 // console.log(username)
 
 /*--------------  .Method Chaining ---------------- */
-
 
 /*--------------  For Loop ---------------- */
 
@@ -196,7 +193,55 @@
 
 /*--------------  Spread Array ---------------- */
 
-let number = [1, 2,3, 4, 5];
-let max = Math.max(...number);
-console.log(max);
+// let number = [1, 2, 3, 4, 5];
+// let max = Math.max(...number);
+// console.log(max);
+
+// let username = "Stellar";
+
+// let letters = [...username].join("-").toUpperCase();
+// console.log(letters);
 /*--------------  Spread Array ---------------- */
+
+/*--------------  Random password Generate ---------------- */
+
+const psw = 12;
+const includelower = true;
+const includeUpper = true;
+const includeNumber = true;
+const includeSymbol = true;
+
+function generatePassword(length,includelower,includeUpper,includeNumber,includeSymbol) {
+    
+  const lowerCase = "abcdefghijklmnopqrstuvwxyz";
+  const upperCase = "ABCDEFGHILKLMNOPQRSTUVWXYZ";
+  const number = "1234567890";
+  const symbolsChar = "@-/£%^&*()-=!";
+  let allowedChar = "";
+  let psw = "";
+
+  allowedChar += includelower ? lowerCase : "";
+  allowedChar += includeUpper ? upperCase : "";
+  allowedChar += includeNumber ? number : "";
+  allowedChar += includeSymbol ? symbolsChar : "";
+
+  if(length <= 0) {
+    return `(password length must be atleast 1)`;
+  }
+
+  if(allowedChar.length === 0) {
+    return `(Atleast 1 set of charachter is necc.)`;
+  }
+
+  for(allowedChar.length === 0) {
+    const randomIndex = Math.floor(Math.random() * allowedChar.length);
+
+    psw += allowedChar[randomIndex];
+  }
+
+  return psw;
+}
+
+let password = generatePassword(password.length, includelower, includeUpper, includeNumber, includeSymbol)
+
+console.log(`generated password: ${password}`);
