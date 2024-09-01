@@ -80,30 +80,40 @@
 
 /*--------------  Counter Program ---------------- */
 
-const increase = document.getElementById('increase');
-const decrease = document.getElementById('decrease');
-const reset = document.getElementById('reset');
+// const increase = document.getElementById('increase');
+// const decrease = document.getElementById('decrease');
+// const reset = document.getElementById('reset');
 
-const label = document.getElementById('digit');
+// const label = document.getElementById('digit');
 
-let count = 0;
+// let count = 0;
 
-increase.onclick = function() {
-    count ++;
-    label.textContent = count;   
-}
-reset.onclick = function() {
-    count = 0;
-    label.textContent = count;   
-}
-decrease.onclick = function() {
-    count --;
-    label.textContent = count;  
+// increase.onclick = function() {
+//     count ++;
+//     label.textContent = count;   
+// }
+// reset.onclick = function() {
+//     count = 0;
+//     label.textContent = count;   
+// }
+// decrease.onclick = function() {
+//     count --;
+//     label.textContent = count;  
     
-    if(decrease) {
-        label.textContent = `Moving Down ${count}`;
-    }
-    else {
-        label.textContent = `Moving Up ${count}`;
-    }
-}
+//     if(decrease) {
+//         label.textContent = `Moving Down ${count}`;
+//     }
+//     else {
+//         label.textContent = `Moving Up ${count}`;
+//     }
+// }
+
+
+/*--------------  Math Object ---------------- */
+
+let x = 3.21;
+let y = 2;
+let z;
+
+console.log((Math.random(z) * 10) + 1)
+
