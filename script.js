@@ -188,8 +188,15 @@
 
 /*--------------  Function ---------------- */
 
-function add (x, y) {
-    return x + y;
-}
+// function add (x, y) {
+//     return x + y;
+// }
 
-console.log(add(2, 3));
+// console.log(add(2, 3));
+
+/*--------------  Spread Array ---------------- */
+
+let number = [1, 2,3, 4, 5];
+let max = Math.max(...number);
+console.log(max);
+/*--------------  Spread Array ---------------- */
