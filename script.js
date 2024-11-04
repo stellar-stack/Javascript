@@ -183,6 +183,8 @@
 // for(let i = 1 ; i < 11; i++) {
 //     console.log('string ' + i);
 // }
+
+
 /*-------------- Guessing game -----------------*/
 // const minimum = 1;
 // const maximum = 100;
@@ -215,8 +217,8 @@
 //     }
 //   }
 // }
-
 /*-------------- Guessing Game End-----------------*/
+
 
 /*--------------  Function ---------------- */
 
