@@ -160,6 +160,7 @@
 
 /*--------------  .Checked ---------------- */
 
+
 /*--------------  .String Methods ---------------- */
 // let username = "Stellar";
 
@@ -182,6 +183,40 @@
 // for(let i = 1 ; i < 11; i++) {
 //     console.log('string ' + i);
 // }
+/*-------------- Guessing game -----------------*/
+// const minimum = 1;
+// const maximum = 100;
+
+// const answer = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+
+// let attempts = 0;
+// let guess;
+// let running = true;
+
+// while (running) {
+//   guess = window.prompt("Guess a number");
+//   guess = Number(guess); //Type conversion
+
+//   if (isNaN(guess)) {
+//     window.alert("please enter a valid number");
+//   } 
+//   else if (guess < minimum || guess > maximum) {
+//     window.alert("please enter a valid number");
+//   } else {
+//     attempts++;
+//     if (guess < answer) {
+//       window.alert("Too long! try agian!");
+//     } else if (guess > answer) {
+//       window.alert("Too High! Try agian!");
+//     } else {
+//       window.alert("Congratulations");
+
+//       running = false;
+//     }
+//   }
+// }
+
+/*-------------- Guessing Game End-----------------*/
 
 /*--------------  Function ---------------- */
 
