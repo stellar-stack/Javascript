@@ -70,9 +70,7 @@
 
 //   circum = 2 * PI * r;
 
-//   document.getElementById(
-//     "heading"
-//   ).textContent = `The circumferece is = ${circum}cm.`;
+//   document.getElementById("heading").textContent = `The circumferece is = ${circum}cm.`;
 // };
 
 /*--------------  Little Calculator ---------------- */
