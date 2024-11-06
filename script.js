@@ -204,6 +204,7 @@
 //     console.log( i);
 // }
 // console.log("Happy new year!")
+/*--------------  For Loop ---------------- */
 
 /*-------------- Guessing game -----------------*/
 // const minimum = 1;
