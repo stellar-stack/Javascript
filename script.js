@@ -176,12 +176,34 @@
 
 /*--------------  .Method Chaining ---------------- */
 
-/*--------------  For Loop ---------------- */
+/*-------------- login system ---------------- */
 
-// for(let i = 1 ; i < 11; i++) {
-//     console.log('string ' + i);
+//let loggedIn = false;
+// let username;
+// let psw;
+
+// while(!loggedIn) {
+//   username = window.prompt('Enter your username')
+//   psw = window.prompt('Enter the password') ; 
+
+//   if (username === "myusername" && psw === "mypaswd")
+//   {
+//     loggedIn = true;
+//     console.log('You are in')
+//   }else 
+//   {
+//     console.log('wrong');
+//   }
 // }
 
+/*-------------- login system ---------------- */
+
+/*--------------  For Loop ---------------- */
+
+// for(let i = 10 ; i > 0; i--) {
+//     console.log( i);
+// }
+// console.log("Happy new year!")
 
 /*-------------- Guessing game -----------------*/
 // const minimum = 1;
@@ -225,6 +247,33 @@
 // }
 
 // console.log(add(2, 3));
+
+/*--------------  Temperatue Conversion ---------------- */
+
+// const textBox = document.getElementById("textBox");
+// const toFahrenheit = document.getElementById("toFahrenheit");
+// const toCelsius = document.getElementById("toCelsius");
+// const result = document.getElementById("result");
+
+// let temp;
+
+// function convert() {
+//   if (toFahrenheit.checked) {
+//     temp = Number(textBox.value);
+//     temp = (temp * 9) / 5 + 32;
+//     result.textContent = temp.toFixed(1) + "F";
+//   } else if (toCelsius.checked) {
+//     temp = Number(textBox.value);
+//     temp = (temp - 32) * 5 / 9;
+//     result.textContent = temp.toFixed(1) + "C";
+
+//   } else {
+//     result.textContent = "Select a unit";
+//   }
+// }
+
+/*--------------  Temperatue Conversion ---------------- */
+
 
 /*--------------  Spread Array ---------------- */
 
