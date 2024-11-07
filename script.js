@@ -367,3 +367,46 @@
 // }
 
 /*--------------  forEach End ---------------- */
+
+/*-------------- .map() ---------------- */
+// const numbers = [1,2,3,4,5];
+
+// const squares = numbers.map(square); // calling a funtion as an argument and storin it in a variable
+
+// console.log(squares); // printing the output into the console
+
+
+// function square (elements) {
+//     return Math.pow(elements, 2)
+// }
+/*-------------- .map() ---------------- */
+
+
+
+/*-------------- filter Method ---------------- */
+
+// const number = [1,2,3,4,5,6,7,8];
+// let evennum = number.filter(isEven);
+
+// console.log(evennum);
+
+// function isEven(elements) {
+//     return elements % 2 === 0;
+// }
+
+/*-------------- filter Method ---------------- */
+
+
+/*-------------- reduce Method ---------------- */
+
+// const prices = [5,30,10,20,40,15];
+
+// const total = prices.reduce(sum);
+
+// console.log(`$${total.toFixed(2)}`);
+
+// function sum (accumulator, elemment) {
+//     return accumulator + elemment;
+// }
+
+/*-------------- reduce Method ---------------- */
