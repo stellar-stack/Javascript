@@ -288,6 +288,18 @@
 // console.log(letters);
 /*--------------  Spread Array ---------------- */
 
+
+
+/*--------------  rest parameters ---------------- */
+// function openfridge(...foods) {
+//     return foods;
+// }
+
+// const food1 = "Apple";
+
+// console.log(openfridge(food1));
+/*--------------  rest parameters ---------------- */
+
 /*--------------  Random password Generate ---------------- */
 
 // const psw = 12;
